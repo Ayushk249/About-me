@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,14 +23,14 @@
   
   background: url("/src/assets/bg-hello.jpg") no-repeat center/cover;
   min-height: 100vh;
-  opacity: 70%;
+  
   
 }
 
 .bg-chinese{
   background: url("/src/assets/chinese_new_year.jpg") no-repeat center/cover;
   min-height: 100vh;
-  opacity: 80%;
+
 }
 
 
