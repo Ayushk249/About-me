@@ -12,8 +12,8 @@ const Homepage = () => {
           <div className="absolute inset-0 bg-slate-900 rounded-full w-52 h-52 blur-xl 
           opacity-0 group-hover:opacity-100 transition duration-75 group-hover:duration-200"></div>
           <Link to='/hello'>
-          <button className='relative font-Bellefair bg-white w-52 h-52 rounded-full 
-          text-transform: uppercase group-hover:text-gray-700 group-hover:font-semibold transition duration-200'>
+          <button className=' font-IngridDarling relative bg-white w-52 h-52 rounded-full text-3xl
+           group-hover:text-gray-700 group-hover:font-semibold transition duration-200'>
             {/* <Link to='/destination' >Explore</Link> */}
             Hello
           </button> 
@@ -26,10 +26,10 @@ const Homepage = () => {
           <div className="absolute inset-0 bg-slate-900 rounded-full w-52 h-52 blur-xl 
           opacity-0 group-hover:opacity-100 transition duration-75 group-hover:duration-200"></div>
           <Link to='/hindi'>
-          <button className='relative font-Bellefair bg-white w-52 h-52 rounded-full 
+          <button className='relative font-Hind bg-white w-52 h-52 rounded-full text-3xl
           text-transform: uppercase group-hover:text-gray-700 group-hover:font-semibold transition duration-200'>
             {/* <Link to='/destination' >Explore</Link> */}
-            Namaste
+            नमस्ते
           </button> 
           </Link>
         </div>
@@ -39,7 +39,7 @@ const Homepage = () => {
           <div className="absolute inset-0 bg-slate-900 rounded-full w-52 h-52 blur-xl 
           opacity-0 group-hover:opacity-100 transition duration-75 group-hover:duration-200"></div>
           <Link to='/chinese'>
-          <button className='relative font-Bellefair bg-white w-52 h-52 rounded-full 
+          <button className='relative font-Bellefair bg-white w-52 h-52 rounded-full text-3xl
           text-transform: uppercase group-hover:text-gray-700 group-hover:font-semibold transition duration-200'>
             {/* <Link to='/destination' >Explore</Link> */}
             你好

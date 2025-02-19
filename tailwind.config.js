@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        IngridDarling: ["Ingrid Darling", "cursive"],
+        Hind: ["Tiro Devanagari Hindi", "serif"]
+      },
       animation: {
         "infinite-scroll": "infinite-scroll 100s linear infinite",
       },

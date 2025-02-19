@@ -7,8 +7,7 @@ import Hello from './screens/Hello.jsx';
 import Homepage from './screens/Homepage.jsx';
 import Hindi from './screens/Hindi.jsx';
 import Chinese from './screens/Chinese.jsx';
-import French from './screens/French.jsx';
-import Spanish from './screens/Spanish.jsx';
+
 
 
 
@@ -19,8 +18,6 @@ const router = createBrowserRouter(
       <Route path="/hello" element={<Hello/>}></Route>
       <Route path = "/hindi" element= {<Hindi/>}></Route>
       <Route path = "/chinese" element= {<Chinese/>}></Route>
-      <Route path = "/french" element= {<French/>}></Route>
-      <Route path = "/spanish" element= {<Spanish/>}></Route>
     </Route>
     
   )
